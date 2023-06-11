@@ -1,8 +1,5 @@
-import React from "react";
-
 function App() {
-  const name = "React";
-  return <div>{name === "React" && <h1>리액트입니다</h1>}</div>;
+  const name = undefined;
+  return <div>{name}</div>;
 }
-
 export default App;
