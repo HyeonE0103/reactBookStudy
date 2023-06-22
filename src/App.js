@@ -1,7 +1,11 @@
-import React from "react";
-import Say from "./Say";
+import React, { Component } from "react";
 
-const App = () => {
-  return <Say />;
-};
+import Average from "./Average";
+import Info from "./Info";
+
+class App extends Component {
+  render() {
+    return <Info />;
+  }
+}
 export default App;
