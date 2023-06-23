@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-
-import Average from "./Average";
-import Info from "./Info";
+import SassComponent from "./SassComponent";
 
 class App extends Component {
   render() {
-    return <Info />;
+    return <SassComponent />;
   }
 }
 export default App;
